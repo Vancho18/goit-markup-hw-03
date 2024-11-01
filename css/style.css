@@ -33,6 +33,9 @@ h6 {
     margin: 0 auto;
     align-items: center;
 }
+img {
+    display: block;
+}
 /* header */
 .header {
     background: #fff;
@@ -40,6 +43,8 @@ h6 {
 }
 .header-container {
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-navigation {
     display: flex;
@@ -52,8 +57,7 @@ h6 {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
     margin-right: 76px;
 }
 .header-logo {
@@ -89,8 +93,6 @@ h6 {
     color: #434455;
 }
 .header-menu-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
     margin-right: 40px;
 }
 .header-menu-link:hover,
@@ -106,8 +108,6 @@ h6 {
     color: #404bbf;
 }
 .header-contacts-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
     margin-right: 40px;
 }
 .header-contacts-item:last-child {
@@ -221,7 +221,7 @@ h6 {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .team-list {
     display: flex;
@@ -249,6 +249,10 @@ h6 {
 
 /* .portfolio */
 
+.portfolio {
+    padding: 120px 0 120px 0;
+}
+
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -257,7 +261,6 @@ h6 {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-top: 120px;
     margin-bottom: 70px;
 }
 .portfolio-list {
@@ -265,12 +268,9 @@ h6 {
     flex-wrap: wrap;
     gap: 48px 24px;
     justify-content: center;
-    margin-bottom: 120px;
 }
 .portfolio-item-box {
-    padding-top: 32px;
-    padding-bottom: 16px;
-    padding-left: 16px;
+    padding: 32px 16px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
