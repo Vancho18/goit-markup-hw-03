@@ -28,8 +28,7 @@ h6 {
 
 .container {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
     margin: 0 auto;
     align-items: center;
 }
@@ -43,8 +42,7 @@ img {
 }
 .header-container {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 .header-navigation {
     display: flex;
@@ -261,7 +259,7 @@ img {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-bottom: 70px;
+    margin-bottom: 72px;
 }
 .portfolio-list {
     display: flex;
