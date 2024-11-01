@@ -54,6 +54,7 @@ h6 {
     text-transform: uppercase;
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-right: 76px;
 }
 .header-logo {
     color: #4d5ae5;
@@ -133,20 +134,19 @@ h6 {
     padding-bottom: 48px;
 }
 
-.order-button {
-    display: flex;
-    justify-content: center;
-}
 .order-service-button {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #fff;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     cursor: pointer;
     padding: 16px 32px;
     border: none;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
 }
 .order-service-button:hover,
 .order-service-button:focus {
@@ -175,7 +175,7 @@ h6 {
 .advantages-list {
     display: flex;
     align-items: start;
-    column-gap: 24px;
+    gap: 24px;
 }
 .advantages-item {
     max-width: 264px;
@@ -201,13 +201,15 @@ h6 {
 
 .team {
     background: #f4f4fd;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 .team-item {
     background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
 }
 .team-item-box {
-    margin: 32px 16px;
+    padding: 32px 0;
 }
 .team-title {
     font-weight: 700;
@@ -217,8 +219,7 @@ h6 {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-top: 120px;
-    padding-bottom: 70px;
+    padding-bottom: 72px;
 }
 .team-list {
     display: flex;
@@ -275,6 +276,7 @@ h6 {
 .portfolio-item {
     line-height: 0;
 }
+
 .portfolio-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -296,7 +298,7 @@ footer {
     background: #2e2f42;
 }
 .footer-main {
-    padding: 100px;
+    padding: 100px 0;
 }
 footer a {
     font-family: "Raleway", sans-serif;
@@ -307,8 +309,8 @@ footer a {
     text-transform: uppercase;
 }
 .footer-logo {
-    margin-bottom: 20px;
-    display: block;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .footer-text {
