@@ -68,6 +68,7 @@ img {
 
 .header-menu-list {
     display: flex;
+    padding: 24px 0;
 }
 .header-menu-list a {
     font-weight: 500;
