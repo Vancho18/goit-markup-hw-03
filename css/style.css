@@ -42,11 +42,12 @@ img {
 }
 .header-container {
     display: flex;
-    padding: 24px 0;
+    padding: 0 15px;
 }
 .header-navigation {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 .header-logo {
     font-family: "Raleway", sans-serif;
