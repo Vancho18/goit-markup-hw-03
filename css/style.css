@@ -177,6 +177,9 @@ h6 {
     align-items: start;
     column-gap: 24px;
 }
+.advantages-item {
+    max-width: 264px;
+}
 .advantages-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -286,7 +289,9 @@ h6 {
 footer {
     background: #2e2f42;
 }
-
+.footer-main {
+    padding: 100px;
+}
 footer a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -296,18 +301,17 @@ footer a {
     text-transform: uppercase;
 }
 .footer-logo {
-    margin-top: 120px;
+    margin-bottom: 20px;
+    display: block;
 }
-.footer-content {
-    max-width: 264px;
-    margin-top: 120px;
-}
+
 .footer-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
 
 footer a {
